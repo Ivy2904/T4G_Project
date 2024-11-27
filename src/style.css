@@ -1,4 +1,57 @@
-.my_header{
+/* .my_header{
+background-image: url(../images/origin.jpg);
+height: 1000px;
+padding: 100px;
+background-size:cover;
+box-shadow: 0px 10px 20px;
+}
+.my_nav{
+    background-image: url(../images/origin.jpg);
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(9, 0, 9, 0.017);
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+    margin: 3px;
+    padding: 6px;
+    gap: 8rem;
+}
+.img_logo{
+    background-image: url(../images/backevery.jpg);
+    justify-content: flex-start;
+} */
 
 
+.big{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: azure;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    /* text-align: right; */
+    position: fixed;
+    right: 5%;
+    background-color:antiquewhite;
+    padding: 30px 0;
+    text-align:center ;
+    line-height: 20px;
+}
+.headtext{
+    /* text-align: justify; */
+    line-height: 20px;
+    right: auto;
+    left: auto;
+    align-items: center;
+    margin: 70px;
+    padding: 13px;
+    
+   
+    
 }
